@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda</title>
+    <link rel="icon" type="image/png" href="imagenes/i.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/08e6ecba54.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <nav>
+       <ul class="menu-nav">
+            <li><a href="#">Bebés</a></li>
+            <li><a href="#">Niños</a></li>
+            <li><a href="#">Niñas</a></li>
+       </ul> 
+       <div class="logo"><a href="index.html">MiTienda</a></div>
+      <div class="iconos">
+        <button ><i class="fas fa-search"></i></button>
+        <button ><i class="fas fa-user"></i></button>
+        <button ><i class="fas fa-shopping-cart"></i></button>
+      </div>
+    </nav>
+    
+    <main>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tenés dudas o consultas? Escribinos a través del siguiente formulario:</p>
+            <form action="mailto:tuemail@ejemplo.com" method="POST" enctype="text/plain" class="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+      <div class="footer-columna">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Tabla de talles</a></li>
+          <li><a href="#">Politica de cambios</a></li>
+          <li><a href="#">Promociones</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="contacto.html"> Formulario de contacto</a></li>
+          <li><a href="#"> Whatsapp</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Envios</h4>
+        <ul>
+            <li><a href="#">Seguimiento de envio</a></li>
+            <li><a href="#">Formas de envio</a></li>
+          </ul>
+        
+      </div>
+
+    </footer>
+    
+    <div class="post-footer">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li> 
+          </ul>
+
+    </div>
+  </body>
+  
+</html>
