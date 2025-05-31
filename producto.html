@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda</title>
+    <link rel="icon" type="image/png" href="imagenes/i.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/08e6ecba54.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+       <ul class="menu-nav">
+            <li><a href="#">Bebés</a></li>
+            <li><a href="#">Niños</a></li>
+            <li><a href="#">Niñas</a></li>
+       </ul> 
+       <div class="logo"><a href="index.html">MiTienda</a></div>
+      <div class="iconos">
+        <button ><i class="fas fa-search"></i></button>
+        <button ><i class="fas fa-user"></i></button>
+        <button ><i class="fas fa-shopping-cart"></i></button>
+      </div>
+    </nav>
+
+  <main class="detalle-producto">
+    <div class="ruta-actual">
+       <i class="fa fa-angle-left" aria-hidden="true"></i> <a href="index.html"> Inicio</a> / <span>Producto</span>
+    </div>
+    <div class="imagen-producto">
+      <img src="imagenes/4.png" alt="Remera azul para niño">
+    </div>
+    <div class="info-producto">
+      <h1>Remera Azul Niño</h1>
+      <div class="precios">
+        <p class="precio">$10.900</p>
+      <p class="precio-sin-impuestos">Precio sin impuestos nacionales $8611</p>
+      </div>
+      <h2 class="titulo-descripcion">Descripcion</h2>
+      <p class="descripcion-producto">
+        Remera de algodón suave, ideal para uso diario. Cómoda y fresca para los días de verano. Disponible en talles del 2 al 12.
+      </p>
+
+      <div class="opciones">
+        <label for="talle">Talle:</label>
+        <select id="talle">
+          <option value="2">2</option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
+          <option value="10">10</option>
+          <option value="12">12</option>
+        </select>
+
+        <label for="color">Color:</label>
+        <select id="color">
+          <option>Azul</option>
+          <option>Rojo</option>
+          <option>Verde</option>
+        </select>
+      </div>
+
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+  </main>
+
+   <footer>
+      <div class="footer-columna">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Tabla de talles</a></li>
+          <li><a href="#">Politica de cambios</a></li>
+          <li><a href="#">Promociones Bancarias</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="contacto.html"> Formulario de contacto</a></li>
+          <li><a href="#"> Whatsapp</a></li>
+          <li><a href="contacto.html">Ubicacion</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Envios</h4>
+        <ul>
+            <li><a href="#">Seguimiento de envios</a></li>
+            <li><a href="#">Formas de envio</a></li>
+          </ul>
+        
+      </div>
+
+    </footer>
+    
+    <div class="post-footer">
+        <p> © 2025 MiTienda. Todos los derechos reservados.</p>
+
+    </div>
+  
+</body>
+</html>

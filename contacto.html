@@ -11,6 +11,8 @@
 </head>
 <body> 
     <nav>
+       <input type="checkbox" id="menu-toggle">
+       <label for="menu-toggle" class="menu-icon">&#9776;</label>
        <ul class="menu-nav">
             <li><a href="#">Bebés</a></li>
             <li><a href="#">Niños</a></li>
@@ -24,8 +26,8 @@
       </div>
     </nav>
     
-    <main>
-        <section class="contacto">
+    <main> 
+        <section id="formulario" class="contacto">
             <h2>Contacto</h2>
             <p>¿Tenés dudas o consultas? Escribinos a través del siguiente formulario:</p>
             <form action="mailto:tuemail@ejemplo.com" method="POST" enctype="text/plain" class="form-contacto">
@@ -41,6 +43,20 @@
                 <button type="submit">Enviar mensaje</button>
             </form>
         </section>
+        <section id="ubicacion" class="ubicacion">
+          <h2>¿Dónde estamos?</h2>
+          <p>Nos encontramos en el corazón de la ciudad. ¡Te esperamos!</p>
+          <div class="info-contacto">
+            <div><i class="fas fa-map-marker-alt"></i> Av. Avellaneda 3250, CABA </div>
+            <div><i class="fas fa-phone-alt"></i> (011) 1234-5678</div>
+            <div><i class="fas fa-clock"></i> Lunes a Viernes de 10 a 18 hs</div>
+          </div>
+
+          <div class="mapa-contenedor">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0660249066586!2d-58.47848782526241!3d-34.62777175876724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc99242940001%3A0x495d6756502a5c0d!2sAv.%20Avellaneda%203250%2C%20C1406FZR%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748645980528!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+</section>
+
     </main>
     
     <footer>
@@ -50,20 +66,21 @@
           <li><a href="#">Preguntas frecuentes</a></li>
           <li><a href="#">Tabla de talles</a></li>
           <li><a href="#">Politica de cambios</a></li>
-          <li><a href="#">Promociones</a></li>
+          <li><a href="#">Promociones Bancarias</a></li>
         </ul>
       </div>
       <div class="footer-columna">
         <h4>Contacto</h4>
         <ul>
-          <li><a href="contacto.html"> Formulario de contacto</a></li>
+          <li><a href="#formulario"> Formulario de contacto</a></li>
           <li><a href="#"> Whatsapp</a></li>
+          <li><a href="#ubicacion">Ubicacion</a></li>
         </ul>
       </div>
       <div class="footer-columna">
         <h4>Envios</h4>
         <ul>
-            <li><a href="#">Seguimiento de envio</a></li>
+            <li><a href="#">Seguimiento de envios</a></li>
             <li><a href="#">Formas de envio</a></li>
           </ul>
         
@@ -72,11 +89,7 @@
     </footer>
     
     <div class="post-footer">
-        <ul>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li> 
-          </ul>
-
+        <p> © 2025 MiTienda. Todos los derechos reservados.</p> 
     </div>
   </body>
   
